@@ -33,7 +33,7 @@ function Culture() {
         invert
       >
         <p>
-          We are a group of like-minded people who share the same core values.
+          Our success lies in yours.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -47,9 +47,9 @@ function Culture() {
           <GridListItem title="Cutting-Edge Innovation" invert>
             We stay ahead of the curve by constantly exploring new technologies and methodologies, ensuring our clients always benefit from the latest advancements.
           </GridListItem>
-          <GridListItem title="Fair Pricing" invert>
+          {/* <GridListItem title="Fair Pricing" invert>
             We are committed to providing exceptional value without the hefty price tag, making top-tier e-commerce solutions accessible to all businesses.
-          </GridListItem>
+          </GridListItem> */}
         </GridList>
       </Container>
     </div>
@@ -157,7 +157,7 @@ function Team() {
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    'We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.',
+    'We Accelerate Your Ecommerce Growth. With the Right Technology and Expertise',
 }
 
 export default async function About() {
@@ -165,35 +165,37 @@ export default async function About() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="About us" title="We Accelerate Your Ecommerce Growth">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+        With the Right Technology and Expertise
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-          Shoplift Accelerator was born in 2020, amidst the aftermath of the COVID-19 pandemic when the global supply chain was in disarray. We saw an opportunity to help businesses transition to e-commerce platforms and provide solutions that empower them from within.
+          In the wake of the pandemic, the global supply chain faced unprecedented disruptions, compelling businesses to adapt swiftly.
           </p>
           <p>
-          Our mission is to empower businesses to thrive in the e-commerce world. We are driven by a passion for innovation and a commitment to making a difference. Our team is a diverse group of dedicated professionals who are focused on customer satisfaction. Each member brings their unique skills and perspectives, contributing to a dynamic and supportive work environment.
+          Many companies that traditionally relied on Excel sheets now find themselves needing greater efficiency and resilience.
+          </p>
+          <p>
+          This is where we come in. We transform your outdated Excel-based processes with cutting-edge technology, empowering your business to thrive in the modern world.
           </p>
         </div>
       </PageIntro>
-      <Container className="mt-16">
-        <StatList>
-          <StatListItem value="7" label="Employees" />
-          <StatListItem value="6" label="Satisfied clients" />
-        </StatList>
-      </Container>
+      {/* <Container className="mt-16"> */}
+        {/* <StatList> */}
+          {/* <StatListItem value="12" label="Employees" /> */}
+          {/* <StatListItem value="1" label="Office" /> */}
+        {/* </StatList> */}
+      {/* </Container> */}
 
       <Culture />
 
-      <Team />
+      {/* <Team /> */}
 
       <PageLinks
         className="mt-24 sm:mt-32 lg:mt-40"
         title="From the blog"
-        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
+        intro="Our team of industry experts have just one thing on their mind; how can technology help your ecommerce business."
         pages={blogArticles}
       />
 

@@ -85,8 +85,7 @@ function NewsletterForm() {
         Sign up for our newsletter
       </h2>
       <p className="mt-4 text-sm text-neutral-700">
-        Subscribe to get the latest design news, articles, resources and
-        inspiration.
+        Subscribe to get the latest news, guides, and offers.
       </p>
       <div className="relative mt-6">
         <input
@@ -125,7 +124,7 @@ export function Footer() {
             <Logo className="h-8" fillOnHover />
           </Link>
           <p className="text-sm text-neutral-700">
-            © Studio Agency Inc. {new Date().getFullYear()}
+            © Shoplift Accelerator {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>
