@@ -159,7 +159,7 @@ export default async function Work() {
       </PageIntro>
 
       <CaseStudies caseStudies={caseStudies} />
-
+      {/*
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Mail Smirk', logo: logoMailSmirk }}
@@ -168,7 +168,7 @@ export default async function Work() {
         delivered something remarkably similar in record time.
       </Testimonial>
 
-      <Clients />
+      <Clients /> */}
 
       <ContactSection />
     </>

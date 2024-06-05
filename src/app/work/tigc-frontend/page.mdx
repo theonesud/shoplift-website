@@ -1,0 +1,74 @@
+import logo from '@/images/clients/tigc/dark.svg'
+import imageHero from './hero.jpg'
+
+export const caseStudy = {
+  client: 'The Indian Garage Co',
+  title: "Advancing TIGC's E-Commerce Frontend with Tailored AI Capabilities",
+  description:
+    'Harnessing Cutting-Edge Technology to Personalize Shopping Experiences and Streamline Operations',
+  summary: [
+    'Harnessing Cutting-Edge Technology to Personalize Shopping Experiences and Streamline Operations',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2023-11',
+  service: 'AI, Audience Segmentation, Recommendation Engine',
+  // testimonial: {
+  //   author: { name: 'Emily Selman', role: 'Head of Engineering at Unseal' },
+  //   content:
+  //     'Studio did an amazing job building out our core blockchain infrastructure and I’m sure once PlaceboCoin rallies they’ll be able to finish the project.',
+  // },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Introduction
+
+In the dynamic online fashion retail market, personalized customer experiences are essential for success. The Indian Garage Co., a leading fashion retailer, faced significant challenges with product visibility and conversion rates on prominent marketplaces like Myntra and Ajio. To tackle these issues, we implemented advanced AI-driven solutions and strategic operational changes, greatly enhancing their efficiency and customer engagement.
+
+## Challenges
+
+The Indian Garage Co. encountered several obstacles that impeded their marketplace performance:
+
+- **Inconsistent Categorization and Inaccurate Product Data:** Previously, The Indian Garage Co. struggled with products being frequently misclassified due to unregulated category selections by designers, such as listing short kurtas under 'shirts', which adversely affected sales. Compounding this issue, the data uploaded to online platforms was often incomplete or erroneous, resulting in listings that failed to meet marketplace standards or customer expectations.
+- **High Costs of Product Photography:** Conventional photoshoots for new products were cost-prohibitive, affecting the ability to frequently update product images in the catalog.
+- **Lack of Personalized Marketing:** Previously collected user data was underutilized, resulting in generic marketing strategies that failed to effectively engage specific customer segments.
+
+## Solutions Provided
+
+Our comprehensive approach to revamping The Indian Garage Co.'s online product management included:
+
+- **AI-Driven Product Tagging and Description Generation:** Utilizing AI to optimize the entire catalog for SEO and marketplace search algorithms.
+- **Revised Hierarchy of Product Categories:** Developing a structured application for category management, enabling designers to select appropriate categories from predefined dropdowns with conditional logic, ensuring accurate and consistent categorization.
+- **Role-Based Access Control System:** Implementing a system where product data flowed through various teams—designers, merchandising, commercial, and cataloging—each with specific read and write permissions, enhancing data accuracy and process efficiency.
+- **Virtual Photoshoot Technology:** Using AI to digitally place products on models of various sizes, reducing the costs associated with physical photoshoots by 80%, significant given the client’s volume of 500 new products per month.
+- **Enhanced User Data Collection and Segmentation:** Collecting detailed user data from store interactions to effectively segment audiences (e.g., high-value customers, discount lovers, repeat purchasers) and personalize marketing efforts.
+- **Dynamic Product Recommendations:** Leveraging collaborative filtering to create personalized user profiles that informed product recommendations during search and upsell opportunities in the cart, significantly enhancing user engagement and conversion rates.
+- **Targeted Loyalty Programs:** Designing loyalty programs specifically tailored to encourage repeat business from identified segments.
+
+## What we did
+
+<TagList>
+  <TagListItem>AI</TagListItem>
+  <TagListItem>Audience Segmentation</TagListItem>
+  <TagListItem>Personalized Recommendation Engine</TagListItem>
+  <TagListItem>Role Based Access Control</TagListItem>
+</TagList>
+{/*
+<Blockquote
+  author={{ name: 'Emily Selman', role: 'Head of Engineering at Unseal' }}
+  image={{ src: imageEmilySelman }}
+>
+  Studio did an amazing job building out our core blockchain infrastructure and
+  I’m sure once PlaceboCoin rallies they’ll be able to finish the project.
+</Blockquote> */}
+
+<StatList>
+  <StatListItem value="25%" label="Increased Engagement" />
+  <StatListItem value="80%" label="Less Photoshoot Cost" />
+  <StatListItem value="50k" label="SKUs" />
+  <StatListItem value="5" label="Internal Teams" />
+</StatList>

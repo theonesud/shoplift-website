@@ -1,0 +1,84 @@
+import logo from '@/images/clients/tigc/dark.svg'
+import imageHero from './hero2.png'
+
+export const caseStudy = {
+  client: 'The Indian Garage Co',
+  title:
+    'How TIGC Leveraged Data to Optimize Product Portfolio and Align with Business Strategy',
+  description:
+    "Leveraging Advanced Analytics to Align Product Strategy with Business Goals for India's Leading D2C Fashion Brand",
+  summary: [
+    "Leveraging Advanced Analytics to Align Product Strategy with Business Goals for India's Leading D2C Fashion Brand",
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2023-10',
+  service: 'Business Analysis, Machine Learning',
+  // testimonial: {
+  //   author: { name: 'Debra Fiscal', role: 'CEO of FamilyFund' },
+  //   content:
+  //     'Working with Studio, we felt more like a partner than a customer. They really resonated with our mission to change the way people convince their parents to cash out their pensions.',
+  // },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Introduction
+
+In the fast-evolving landscape of India’s direct-to-consumer fashion market, The Indian Garage Co. (TIGC) stands out not only for its rapid growth but for its commitment to cutting-edge data-driven strategies. Facing the complex challenge of managing a vast product catalog and a cumbersome data analysis process, TIGC partnered with us to revolutionize their approach to product management and market responsiveness.
+
+## Challenges
+
+TIGC's expansive product catalog of over 10,000 items posed significant data management challenges. The primary issues included:
+
+- **Data Granularity and Analysis:** The existing tools, primarily Excel, could not handle the granularity needed for individual product analysis, often leading to system crashes and significant human errors.
+- **Delayed Response Time:** The cycle from fabric ordering to sales data analysis took approximately seven months. This lag meant that any strategic adjustments would only impact the business several months later, complicating timely decision-making.
+- **Inventory Mismanagement:** The inability to accurately forecast demand led to severe overstocking of low-sale items (with some products exceeding 12 months of inventory) and frequent stockouts of popular products.
+- **Seasonal Variability:** TIGC had to navigate complex seasonal trends that significantly influenced consumer buying patterns, requiring a predictive model that could accurately adjust for seasonal fluctuations.
+- **Sales Volatility:** Sales days on major platforms like Myntra, Ajio, and Amazon introduced spikes in demand that needed anticipation several months in advance, a task the existing system was ill-equipped to handle.
+- **Inefficient Advertising Spend:** TIGC was allocating the same advertising budget to rapidly move products out of inventory, regardless of their sales performance or market trends.
+
+## Solutions Provided
+
+To address these challenges, we developed a comprehensive analytics solution that includes:
+
+- **Custom Application Development:** We translated all processes previously managed in Excel into a robust application that presents real-time business metrics. This tool analyzes high-performing products for increased investment, identifies low-demand items suitable for discontinuation, and spots opportunities for product redeployment across different sales channels.
+- **Predictive Analytics for Demand Forecasting:** We introduced predictive analytics to forecast demand more accurately and adjust procurement and production schedules dynamically, including adjustments for seasonal trends. This system alerts teams before a fast-selling item is about to go out of stock, triggering emergency production to replenish these items within a month.
+- **Optimized Advertising Spend:** By performing calculations at the EAN level, we could determine the optimum amount of Product Listing Ads (PLA) spend for each product, ensuring efficient use of advertising resources to enhance product visibility and sales.
+
+## Actions Taken
+
+Our interventions allowed TIGC to:
+
+- Achieve detailed analysis at the individual product level, enabling precise adjustments to the product line.
+- Significantly reduce the time lag in strategic decision-making by utilizing real-time data.
+- Optimize inventory levels to adequately prepare for demand fluctuations during major sales events and seasonal shifts.
+- Tailor advertising spends to match the potential sales impact of each product, maximizing ROI on marketing investments.
+
+## What we did
+
+<TagList>
+  <TagListItem>Data Warehousing</TagListItem>
+  <TagListItem>Business Analysis</TagListItem>
+  <TagListItem>Machine Learning</TagListItem>
+  <TagListItem>Automated Reports</TagListItem>
+</TagList>
+{/*
+<Blockquote
+  author={{ name: 'Debra Fiscal', role: 'CEO of FamilyFund' }}
+  image={{ src: imageDebraFiscal }}
+>
+  Working with Studio, we felt more like a partner than a customer. They really
+  resonated with our mission to change the way people convince their parents to
+  cash out their pensions.
+</Blockquote> */}
+
+<StatList>
+  <StatListItem value="40%" label="Less Overstock" />
+  <StatListItem value="25%" label="More Inventory Turnover" />
+  <StatListItem value="6yrs" label="Data Analysed" />
+  <StatListItem value="0" label="Human Errors" />
+</StatList>
