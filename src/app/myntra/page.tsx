@@ -23,10 +23,10 @@ export default function Example() {
 
   const renderProductsByGenderAndCategory = (gender: string) => {
     const filteredProducts = products.filter(
-      (product) => product.gender === gender,
+      (product: any) => product.gender === gender,
     )
     const categories = [
-      ...new Set(filteredProducts.map((product) => product.product)),
+      ...new Set(filteredProducts.map((product: any) => product.product)),
     ]
 
     return categories.map((category) => (
@@ -43,7 +43,7 @@ export default function Example() {
         </a>
         <div className="mt-6 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
           {filteredProducts
-            .filter((p) => p.product === category)
+            .filter((p: any) => p.product === category)
             .slice(0, 4)
             .map((product, index) => (
               <div key={index} className="group relative">
