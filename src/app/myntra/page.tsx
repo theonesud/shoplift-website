@@ -21,7 +21,7 @@ export default function Example() {
       })
   }, [])
 
-  const renderProductsByGenderAndCategory = (gender) => {
+  const renderProductsByGenderAndCategory = (gender: string) => {
     const filteredProducts = products.filter(
       (product) => product.gender === gender,
     )
